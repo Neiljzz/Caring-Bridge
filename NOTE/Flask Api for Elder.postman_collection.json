@@ -1,0 +1,1802 @@
+{
+	"info": {
+		"_postman_id": "1211d81d-c5c0-454b-8140-d7572f2f66ef",
+		"name": "Flask Api for Elder",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26318292"
+	},
+	"item": [
+		{
+			"name": "Create Users",
+			"item": [
+				{
+					"name": "Create Elder",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"first_name\": \"first1\",\r\n    \"last_name\": \"last2\",\r\n    \"email\": \"email12@email.com\",\r\n    \"phone\": \"123123123\",\r\n    \"address\": \"address11111\",\r\n    \"birthday\": \"1980-1-1\",\r\n    \"password\": \"password1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/elder/sign_up",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"elder",
+								"sign_up"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Elder 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"first_name\": \"Will\",\r\n    \"last_name\": \"Andy\",\r\n    \"email\": \"wa12@email.com\",\r\n    \"phone\": \"11100111\",\r\n    \"address\": \"network\",\r\n    \"birthday\": \"1970-5-11\",\r\n    \"password\": \"password1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/elder/sign_up",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"elder",
+								"sign_up"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Caregiver",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"first_name\": \"Sarah\",\r\n    \"last_name\": \"Jacobson\",\r\n    \"email\": \"care1@email.com\",\r\n    \"phone\": \"541-454-7862\",\r\n    \"address\": \"1202 Sycamore Road\",\r\n    \"birthday\": \"1990-1-1\",\r\n    \"intro\": \"Hi, I'm Sarah, a certified caregiver with 5 years of experience. I am passionate about helping seniors live their best life by providing personalized care that meets their unique needs. My areas of expertise include medication management, personal care, and companionship. I believe that empathy, patience, and communication are key to building trust with my clients and their families.\",\r\n    \"password\": \"password1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/care/sign_up",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"sign_up"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Caregiver 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"first_name\": \"John\",\r\n    \"last_name\": \"Don\",\r\n    \"email\": \"email222@email.com\",\r\n    \"phone\": \" 715-742-0529\",\r\n    \"address\": \"2631 Tea Berry Lane\",\r\n    \"birthday\": \"1990-1-1\",\r\n    \"intro\": \"Hello, my name is John and I have been a caregiver for over 10 years. I specialize in providing high-quality care for seniors with physical disabilities and chronic illnesses, such as Parkinson's disease and dementia. My goal is to help seniors maintain their independence and dignity while staying safe and comfortable in their own homes. I am dedicated to delivering compassionate care that exceeds expectations.\",\r\n    \"password\": \"password1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/care/sign_up",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"sign_up"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Caregiver 3",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"first_name\": \"Emily\",\r\n    \"last_name\": \"Huang\",\r\n    \"email\": \"care33@email.com\",\r\n    \"phone\": \"620-396-2375\",\r\n    \"address\": \"1020 Breezewood Court\",\r\n    \"birthday\": \"1990-1-1\",\r\n    \"intro\": \"Greetings, I'm Emily and I have been working as a caregiver for 3 years. I have a deep understanding of the challenges that seniors face, and I am committed to providing the highest level of care to help them overcome those challenges. My areas of expertise include meal preparation, light housekeeping, and mental support. I believe that building strong relationships with my clients is the key to providing the best possible care.\",\r\n    \"password\": \"password1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/care/sign_up",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"sign_up"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Caregiver 4",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"first_name\": \"Alex\",\r\n    \"last_name\": \"Trump\",\r\n    \"email\": \"care44@email.com\",\r\n    \"phone\": \"925-376-1915\",\r\n    \"address\": \"2870 Park Street\",\r\n    \"birthday\": \"1995-1-1\",\r\n    \"intro\": \"Hi, my name is Alex and I am a licensed caregiver with a passion for helping seniors live a happy and healthy life. I have over 7 years of experience in providing care for seniors with a wide range of needs, from basic personal care to more complex medical conditions. I take pride in my ability to connect with my clients and provide the emotional support they need to thrive. My skills include medication management, health monitoring, and companionship.\",\r\n    \"password\": \"password1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/care/sign_up",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"sign_up"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Caregiver 5",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"first_name\": \"lee\",\r\n    \"last_name\": \"five\",\r\n    \"email\": \"care55@email.com\",\r\n    \"phone\": \"815-337-8552\",\r\n    \"address\": \"414 Lowland Drive\",\r\n    \"birthday\": \"1993-1-1\",\r\n    \"intro\": \"Desc\",\r\n    \"password\": \"password1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/care/sign_up",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"sign_up"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Care Add Service",
+			"item": [
+				{
+					"name": "Care Token",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var res = pm.response.json();\r",
+									"pm.environment.set('token', res.token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "password1",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "care1@email.com",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"care1@email.com\",\r\n    \"password\": \"password1\"\r\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/care/token",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Care Get info",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/care/me",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"me"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create service 1",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"price\": 100,\r\n    \"duration\": 120,\r\n    \"remarks\": \"ok\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/care/create_service/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"create_service",
+								"1"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create service 2",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"price\": 150,\r\n    \"duration\": 180,\r\n    \"remarks\": \"affordable\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/care/create_service/2",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"create_service",
+								"2"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Care Token 2",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var res = pm.response.json();\r",
+									"pm.environment.set('token', res.token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "care33@email.com",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "password1",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"care1@email.com\",\r\n    \"password\": \"password1\"\r\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/care/token",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Care Get info 2",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/care/me",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"me"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create service 3",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"price\": 200,\r\n    \"duration\": 90,\r\n    \"remarks\": \"pro\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/care/create_service/2",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"create_service",
+								"2"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create service 4",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"price\": 150,\r\n    \"duration\": 60,\r\n    \"remarks\": \"air\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/care/create_service/3",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"create_service",
+								"3"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Service 4",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"price\": 300\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/care/services/4",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"services",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create service 5",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"price\": 120,\r\n    \"duration\": 30,\r\n    \"remarks\": \"pro max\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/care/create_service/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"create_service",
+								"1"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete service 5",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/care/services/5",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"services",
+								"5"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Elder buy service",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Elder Token",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var res = pm.response.json();\r",
+									"pm.environment.set('token', res.token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "email12@email.com",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "password1",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"email12@email.com\",\r\n    \"password\": \"password1\"\r\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/elder/token",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"elder",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buy Service 1",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/elder/buy_service/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"elder",
+								"buy_service",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buy Service 2",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/elder/buy_service/2",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"elder",
+								"buy_service",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buy Service 3",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/elder/buy_service/3",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"elder",
+								"buy_service",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buy Service 4",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/elder/buy_service/4",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"elder",
+								"buy_service",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Elder Token 2",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var res = pm.response.json();\r",
+									"pm.environment.set('token', res.token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "wa12@email.com",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "password1",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"wa12@email.com\",\r\n    \"password\": \"password1\"\r\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/elder/token",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"elder",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buy Service 1 Copy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/elder/buy_service/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"elder",
+								"buy_service",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buy Service 2 Copy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/elder/buy_service/2",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"elder",
+								"buy_service",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buy Service 3 Copy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/elder/buy_service/3",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"elder",
+								"buy_service",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buy Service 4 Copy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/elder/buy_service/4",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"elder",
+								"buy_service",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search service records",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/elder/service_records/",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"elder",
+								"service_records",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Care handle service",
+			"item": [
+				{
+					"name": "Care Token 1",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var res = pm.response.json();\r",
+									"pm.environment.set('token', res.token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "password1",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "care1@email.com",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"care1@email.com\",\r\n    \"password\": \"password1\"\r\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/care/token",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search service records 1",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/care/service_records/",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"service_records",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Accept sr 1",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/care/service_record/1/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"service_record",
+								"1",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Accept sr 2",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/care/service_record/3/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"service_record",
+								"3",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Accept sr 5",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/care/service_record/8/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"service_record",
+								"8",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reject sr 6",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/care/service_record/6/2",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"service_record",
+								"6",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cancel sr 2",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/care/service_record/2/4",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"service_record",
+								"2",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search service records 2",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/care/service_records/?status=1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"service_records",
+								""
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Finish sr 1",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"price\": 145,\r\n    \"service_time\": \"2023-4-19 19:00:00\",\r\n    \"service_remark\": \"proper exercise\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/care/service_record/8",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"service_record",
+								"8"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Care 3 handle Service",
+			"item": [
+				{
+					"name": "Care 3 Token",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var res = pm.response.json();\r",
+									"pm.environment.set('token', res.token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "care33@email.com",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "password1",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"care1@email.com\",\r\n    \"password\": \"password1\"\r\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/care/token",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Accept sr 1",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/care/service_record/5/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"service_record",
+								"5",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cancel sr",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/care/service_record/5/4",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"care",
+								"service_record",
+								"5",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Elder handle service",
+			"item": [
+				{
+					"name": "Elder Token 1",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var res = pm.response.json();\r",
+									"pm.environment.set('token', res.token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "email12@email.com",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "password1",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"email12@email.com\",\r\n    \"password\": \"password1\"\r\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/elder/token",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"elder",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search service records",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/elder/service_records/?status=5",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"elder",
+								"service_records",
+								""
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Review sr 1",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"rating\": 4,\r\n    \"comment\": \"ok\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/elder/service_record/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"elder",
+								"service_record",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Elder Token 2",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var res = pm.response.json();\r",
+									"pm.environment.set('token', res.token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "wa12@email.com",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "password1",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"wa12@email.com\",\r\n    \"password\": \"password1\"\r\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/elder/token",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"elder",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cancel sr 2",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/elder/service_record/5",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"elder",
+								"service_record",
+								"5"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Get All service Types",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/care/servicetypes",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"care",
+						"servicetypes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Services",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/elder/services?stid=2",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"elder",
+						"services"
+					],
+					"query": [
+						{
+							"key": "cname",
+							"value": "one",
+							"disabled": true
+						},
+						{
+							"key": "stid",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Elder Token",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "password1",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "email12@email.com",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"email12@email.com\",\r\n    \"password\": \"password1\"\r\n}"
+				},
+				"url": {
+					"raw": "{{base_url}}/elder/token",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"elder",
+						"token"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:5000",
+			"type": "string"
+		}
+	]
+}
