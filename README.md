@@ -6,7 +6,7 @@ The platform provides a comprehensive set of features that allow families to fin
 
 The project was built using Bootstrap, JS, React, and Flask frameworks, and features a carefully crafted UX/UI design, optimized for ease of use for our diverse user base.
 
-Check out the entire UX process and design journey at NeilJiaCreations UX Portfolio.
+Check out the entire UX process and design journey at [NeilJiaCreations UX Portfolio](https://neiljiacreations.com/p/97303b3c/034e6e77).
 
 ### Features
 User Profiles: Each caregiver has a detailed profile including qualifications, experience, and feedback from previous clients.
