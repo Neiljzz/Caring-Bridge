@@ -18,7 +18,5 @@ Instant Communication: An integrated chat feature allows families and caregivers
 Secure Payments: Payments are made securely through the platform, ensuring trust and ease for both parties.
 
 ### Contributing
-Caring Bridge is currently a personal project. However, contributions are always welcome. If you'd like to contribute, please fork the repository and create a pull request.
+Caring Bridge is currently a personal project, and it's currently under active development, with more features and improvements in the works. However, contributions are always welcome. If you'd like to contribute, please fork the repository and create a pull request.
 
-License
-This project is licensed under the MIT License.
